@@ -1,10 +1,15 @@
 import pytest
-from mock.employees.static import Endpoint
+from mock.employees.static import Endpoint, Route
 
 
 @pytest.fixture(scope="module")
 def endpoint() -> Endpoint:
     return Endpoint()
+
+
+@pytest.fixture(scope="module")
+def route() -> Route:
+    return Route()
 
 
 def test_address(endpoint: Endpoint) -> None:
@@ -17,3 +22,7 @@ def test_port(endpoint: Endpoint) -> None:
 
 def test_debug(endpoint: Endpoint) -> None:
     assert not endpoint.debug
+
+
+def test_route_home(route: Route) -> None:
+    assert route.home == "/"

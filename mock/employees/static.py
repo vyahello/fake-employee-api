@@ -8,3 +8,10 @@ class Endpoint:
     address: str = "0.0.0.0"
     port: int = 7777
     debug: bool = False
+
+
+@dataclass(frozen=True)
+class Route:
+    """The class represents API routes."""
+
+    home: str = "/"

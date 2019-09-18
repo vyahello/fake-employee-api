@@ -2,8 +2,15 @@
 A lightweight fake mock data API written in [_responder_](http://python-responder.org/en/latest/) python HTTP service framework. 
 This application will parse fake (mock) JSON data and build an API to work with it.
 
-## Table of contents
+# Table of contents
 - [Contributing](#contributing)
+- [Run application](#run-application)
+
+# Run application
+Run script from the root directory of the project:
+```bash
+python mock_parser_api.py
+```
 
 
 # Contributing
