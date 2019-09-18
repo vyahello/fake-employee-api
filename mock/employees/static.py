@@ -15,3 +15,5 @@ class Route:
     """The class represents API routes."""
 
     home: str = "/"
+    search_by_keyword: str = "/api/search/{keyword}"
+    search_by_id: str = "/api/employee/{id}"

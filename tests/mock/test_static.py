@@ -26,3 +26,11 @@ def test_debug(endpoint: Endpoint) -> None:
 
 def test_route_home(route: Route) -> None:
     assert route.home == "/"
+
+
+def test_route_search_by_keyword(route: Route) -> None:
+    assert route.search_by_keyword == "/api/search/{keyword}"
+
+
+def test_route_search_by_id(route: Route) -> None:
+    assert route.search_by_id == "/api/employee/{id}"
