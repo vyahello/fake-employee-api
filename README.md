@@ -3,8 +3,9 @@ A lightweight fake mock data API written in [_responder_](http://python-responde
 This application will parse fake (mock) JSON data and build an API to work with it.
 
 # Table of contents
-- [Contributing](#contributing)
 - [Run application](#run-application)
+- [Demo](#demo)
+- [Contributing](#contributing)
 
 # Run application
 Run script from the root directory of the project:
@@ -12,6 +13,8 @@ Run script from the root directory of the project:
 python mock_parser_api.py
 ```
 
+# Demo
+![Screenshot](static/mock.png)
 
 # Contributing
 - clone the repository
