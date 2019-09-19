@@ -2,6 +2,9 @@
 A lightweight fake mock data API written in [_responder_](http://python-responder.org/en/latest/) python HTTP service framework. 
 This application will parse fake (mock) employees JSON data and build an API to work with it.
 
+[![Build Status](https://travis-ci.org/vyahello/fake-employee-api.svg?branch=master)](https://travis-ci.org/vyahello/fake-employee-api)
+[![Coverage Status](https://coveralls.io/repos/github/vyahello/fake-employee-api/badge.svg?branch=master)](https://coveralls.io/github/vyahello/fake-employee-api?branch=master)
+
 # Table of contents
 - [Run application](#run-application)
 - [Demo](#demo)
