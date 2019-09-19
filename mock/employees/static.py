@@ -16,4 +16,4 @@ class Route:
 
     home: str = "/"
     search_by_keyword: str = "/api/search/{keyword}"
-    search_by_id: str = "/api/employee/{id}"
+    search_by_id: str = "/api/employee/{identifier}"
