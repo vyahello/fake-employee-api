@@ -5,6 +5,7 @@ This application will parse fake (mock) employees JSON data and build an API to 
 # Table of contents
 - [Run application](#run-application)
 - [Demo](#demo)
+- [Run static code analysis](#run-static-code-analysis)
 - [Contributing](#contributing)
 
 # Run application
@@ -15,6 +16,13 @@ python mock_parser_api.py
 
 # Demo
 ![Screenshot](static/mock.png)
+
+# Run static code analysis
+In general static code analysis consists of following tools: `black`, `flake8`, `pylint`, `mypy`, and `unittests` accordingly.
+To be able to start static code analysis _locally_ please run following script from the root directory of the project:
+```bash
+./run-code-analysis.sh install-dependencies
+```
 
 # Contributing
 - clone the repository

@@ -1,3 +1,4 @@
+"""Module contains API to work with `mock-parser-api` app."""
 from abc import ABC, abstractmethod
 from mock.employees import mock_api
 from mock.employees.static import Endpoint

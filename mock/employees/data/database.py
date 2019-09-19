@@ -19,7 +19,7 @@ class Employee(ABC):
         pass
 
     @abstractmethod
-    def has_keyword(self,  keyword: str) -> bool:
+    def has_keyword(self, keyword: str) -> bool:
         pass
 
 

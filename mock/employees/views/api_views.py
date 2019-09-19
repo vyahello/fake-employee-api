@@ -28,5 +28,5 @@ async def search_employee_by_id(_: Request, response: Response, identifier: str)
         "employee_id": identifier,
         "truncated_results": employees.truncated,
         "hits": 1,
-        "results": employees.search_by_id(int(identifier)).to_dict()
+        "results": employees.search_by_id(int(identifier)).to_dict(),
     }

@@ -1,3 +1,4 @@
+# pylint: disable=redefined-outer-name
 import pytest
 from mock.employees.static import Endpoint, Route
 

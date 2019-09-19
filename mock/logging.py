@@ -48,7 +48,7 @@ class Logger:
         return self._logger().level
 
     def set_level(self, level: Union[str, int]) -> None:
-        if isinstance(level, str) or isinstance(level, int):
+        if isinstance(level, (int, str)):
             self._logger().setLevel(level)
         else:
             raise LoggerError('Logger level must be an "int" or an "str"!')
