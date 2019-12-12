@@ -6,6 +6,9 @@ Please follow [mock parser api](https://fake-employee-api.herokuapp.com) app to 
 [![Build Status](https://travis-ci.org/vyahello/fake-employee-api.svg?branch=master)](https://travis-ci.org/vyahello/fake-employee-api)
 [![Coverage Status](https://coveralls.io/repos/github/vyahello/fake-employee-api/badge.svg?branch=master)](https://coveralls.io/github/vyahello/fake-employee-api?branch=master)
 
+[![EO principles respected here](https://www.elegantobjects.org/badge.svg)](https://www.elegantobjects.org)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.md)
+
 # Table of contents
 - [Run application](#run-application)
 - [Demo](#demo)
