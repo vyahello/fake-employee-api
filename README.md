@@ -1,13 +1,14 @@
+[![Build Status](https://travis-ci.org/vyahello/fake-employee-api.svg?branch=master)](https://travis-ci.org/vyahello/fake-employee-api)
+[![Coverage Status](https://coveralls.io/repos/github/vyahello/fake-employee-api/badge.svg?branch=master)](https://coveralls.io/github/vyahello/fake-employee-api?branch=master)
+[![EO principles respected here](https://www.elegantobjects.org/badge.svg)](https://www.elegantobjects.org)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.md)
+
+![Screenshot](static/mock.png)
+
 # Fake employees mock data parser API
 A lightweight fake mock data API written in [_responder_](http://python-responder.org/en/latest/) python HTTP service framework. 
 This application will parse fake (mock) employees JSON data and build an API to work with it.
 Please follow [mock parser api](https://fake-employee-api.herokuapp.com) app to see how it looks like.
-
-[![Build Status](https://travis-ci.org/vyahello/fake-employee-api.svg?branch=master)](https://travis-ci.org/vyahello/fake-employee-api)
-[![Coverage Status](https://coveralls.io/repos/github/vyahello/fake-employee-api/badge.svg?branch=master)](https://coveralls.io/github/vyahello/fake-employee-api?branch=master)
-
-[![EO principles respected here](https://www.elegantobjects.org/badge.svg)](https://www.elegantobjects.org)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.md)
 
 # Table of contents
 - [Run application](#run-application)
@@ -21,9 +22,6 @@ Run script from the root directory of the project:
 ```bash
 python mock_parser_api.py
 ```
-
-# Demo
-![Screenshot](static/mock.png)
 
 # Run static code analysis
 In general static code analysis consists of following tools: `black`, `flake8`, `pylint`, `mypy`, and `unittests` accordingly.
