@@ -6,7 +6,6 @@
 [![Build Status](https://travis-ci.org/vyahello/fake-employee-api.svg?branch=master)](https://travis-ci.org/vyahello/fake-employee-api)
 [![Coverage Status](https://coveralls.io/repos/github/vyahello/fake-employee-api/badge.svg?branch=master)](https://coveralls.io/github/vyahello/fake-employee-api?branch=master)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.md)
-[![EO principles respected here](https://www.elegantobjects.org/badge.svg)](https://www.elegantobjects.org)
 
 # Fake employees API
 > A lightweight fake mock data API written in [responder](http://python-responder.org/en/latest/) python HTTP service framework. 
@@ -18,7 +17,7 @@
 
 ### Production
 
-- python 3.8
+- python 3.7, 3.8
 - [responder](http://python-responder.org/en/latest/) framework
 - [heroku](https://fake-employee-api.herokuapp.com) deployment
 
@@ -43,6 +42,13 @@ python mock_parser_api.py
 ```
 
 ## Development
+
+### Testing
+
+Please run the following script to tun unit tests:
+```bash
+pytest
+```
 
 ### Code analysis
 In general static code analysis consists of following tools: `black`, `flake8`, `pylint`, `mypy`, and `unittests` accordingly.
